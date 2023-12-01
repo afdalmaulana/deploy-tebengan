@@ -45,7 +45,7 @@ const ModalAddUser = ({ open, onOk, confirmLoading, onCancel }) => {
         <div style={{ display: "grid", gap: 20 }}>
           <div>
             <Text>Full Name</Text>
-            <Input placeholder="Enter Full Name" width={"100%"} />
+            <Input placeholder="Enter full name" width={"100%"} />
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <Text>Gender</Text>
@@ -56,12 +56,12 @@ const ModalAddUser = ({ open, onOk, confirmLoading, onCancel }) => {
           </div>
           <div>
             <Text>Mobile Number</Text>
-            <Input addonBefore="+62" placeholder="8xx" width={"100%"} />
+            <Input addonBefore="+62" placeholder="81XXX" width={"100%"} />
           </div>
           <Flex gap={20}>
             <div>
               <Text>Emergency Contact (Optional)</Text>
-              <Input addonBefore="+62" placeholder="8xx" width={"100%"} />
+              <Input addonBefore="+62" placeholder="81XXX" width={"100%"} />
             </div>
             <div>
               <Text>Relationship</Text>
@@ -93,12 +93,12 @@ const ModalAddUser = ({ open, onOk, confirmLoading, onCancel }) => {
             </div>
             <div>
               <Text>Name</Text>
-              <Input placeholder="Enter Name" width={"100%"} />
+              <Input placeholder="Enter name" width={"100%"} />
             </div>
           </Flex>
           <div>
             <Text>Email (Optional)</Text>
-            <Input placeholder="Enter Email" width={"100%"} />
+            <Input placeholder="Enter email" width={"100%"} />
           </div>
           <Text style={{ fontSize: "14px", fontWeight: "bold" }}>
             Home Details
