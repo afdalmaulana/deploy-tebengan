@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Testing Tebengan
+          Testing Tebengan2
         </a>
       </header>
     </div>
