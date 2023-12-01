@@ -127,7 +127,7 @@ const ModalAddUser = ({ open, onOk, confirmLoading, onCancel }) => {
           </Flex>
           <div>
             <Text>Home Address Notes (Optional)</Text>
-            <Input placeholder="Search home address notes" width={"100%"} />
+            <Input placeholder="Home address notes" width={"100%"} />
           </div>
           <Text style={{ fontSize: "14px", fontWeight: "bold" }}>
             Work Details
