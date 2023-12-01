@@ -5,7 +5,7 @@ const { Text } = Typography;
 export default function InfoList() {
   return (
     <>
-      <Flex style={{ position: "relative" }}>
+      <Flex align="flex-end" style={{ position: "relative" }}>
         <div
           style={{
             borderLeft: "3px solid black",

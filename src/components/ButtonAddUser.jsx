@@ -22,9 +22,16 @@ export default function ButtonAddUser() {
           background: "#e8f2ff",
           color: "#1c8af5",
           fontWeight: "bold",
+          fontSize: "14px",
+          height: 45,
+          width: 160,
+          padding: 10,
+          borderRadius: 12,
         }}
         ghost
-        icon={<PlusOutlined />}
+        icon={
+          <PlusOutlined style={{ fontWeight: "bold", fontSize: "1.2em" }} />
+        }
         onClick={() => setOpen(true)}
       >
         Add New User
