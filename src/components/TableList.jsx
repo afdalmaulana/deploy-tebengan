@@ -23,7 +23,7 @@ const columns = [
     filterMode: "tree",
     filterSearch: true,
     onFilter: (value, record) => record.name.includes(value),
-    width: "20%",
+    // width: "20%",
   },
   {
     title: "Status",
@@ -32,7 +32,7 @@ const columns = [
     filters: filtersConfig,
     filterMode: "tree",
     filterSearch: true,
-    width: "15%",
+    // width: "15%",
   },
   {
     title: "Name",
@@ -41,7 +41,7 @@ const columns = [
     filters: filtersConfig,
     filterMode: "tree",
     filterSearch: true,
-    width: "15%",
+    // width: "15%",
   },
   {
     title: "Contact",
@@ -50,7 +50,7 @@ const columns = [
     filters: filtersConfig,
     filterMode: "tree",
     filterSearch: true,
-    width: "10%",
+    // width: "10%",
   },
   {
     title: "Address",
@@ -59,25 +59,25 @@ const columns = [
     filters: filtersConfig,
     filterMode: "tree",
     filterSearch: true,
-    width: "50%",
+    // width: "50%",
   },
   {
     title: "Trip",
     dataIndex: "Trip",
     render: (text, record) => <TripField record={record} />,
-    width: "5%",
+    // width: "5%",
   },
   {
     title: "Voucher",
     dataIndex: "Voucher",
     render: (text, record) => <VoucherField record={record} />,
-    width: "40%",
+    // width: "40%",
   },
   {
     title: "Action",
     dataIndex: "Action",
     render: (text, record) => <ActionField record={record} />,
-    width: "10%",
+    // width: "10%",
   },
 ];
 
@@ -102,10 +102,12 @@ const TableList = () => {
       rowSelection={rowSelection}
       columns={columns}
       dataSource={data}
+      scroll={{ x: true }}
       //   scroll={{
       //     y: "500px",
       //   }}
       pagination={false}
+      responsive
     />
   );
 };
